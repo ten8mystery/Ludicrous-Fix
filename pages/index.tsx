@@ -220,7 +220,7 @@ const Home: NextPage = ({ particles }: any) => {
 
           <div id={styles["main-page-init"]}>
             <h1 className={styles["main-title"]}><span>Ludicrous</span> <FaGithub style={{"cursor": "pointer"}} onClick={(e) => {window.open('https://github.com/TitaniumNetwork-Dev/Ludicrous');}} /></h1>
-            <h2 className={styles["main-desc"]}>Surf the Unblo​cked Web</h2>
+            <h2 className={styles["main-desc"]}>Surf the web dawg lmao</h2>
             <form method="GET" id={styles.form} action="/route">
               <input name="query" id={styles["main-input"]} onKeyDown={(event: any) => event.key == "Enter" ? (event.target as any)?.parentNode!.requestSubmit() : null} placeholder="Enter URL or Search Query" autoComplete="off" />
               <input title="hidden" placeholder="hidden" style={{position: "absolute", left: "-1000000000000px"}} value={location.href} name="origin" readOnly />
